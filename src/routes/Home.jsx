@@ -87,7 +87,6 @@ export default function Home() {
       <section id="solução" className="bg-white py-20">
   <div className="max-w-7xl mx-auto px-4">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      {/* Explicação à esquerda */}
       <div>
         <h2 className="text-4xl font-bold text-gray-900 mb-6">Nossa Solução</h2>
         <p className="text-gray-600 text-lg leading-relaxed">
