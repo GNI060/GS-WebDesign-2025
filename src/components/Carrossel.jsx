@@ -29,5 +29,5 @@ export default function Carrossel() {
         className="w-full h-full object-cover transition-all duration-500 ease-in-out"
       />
     </div>
-  );
+  )
 }
