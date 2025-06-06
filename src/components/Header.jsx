@@ -17,7 +17,6 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           
-          {/* Logo desktop */}
           <div className="flex lg:flex-1">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -25,7 +24,6 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Botão menu mobile */}
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -36,8 +34,6 @@ export default function Header() {
               <Bars3Icon aria-hidden="true" className="size-6" />
             </button>
           </div>
-
-          {/* Navegação desktop */}
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a
@@ -50,7 +46,6 @@ export default function Header() {
             ))}
           </div>
 
-          {/* Botão login desktop */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link to="/login" className="text-sm/6 font-semibold text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
@@ -58,12 +53,10 @@ export default function Header() {
           </div>
         </nav>
 
-        {/* Menu mobile */}
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             
-            {/* Topo do menu mobile com logo e botão de fechar */}
             <div className="flex items-center justify-between">
               <Link to="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
                 <span className="sr-only">Your Company</span>
@@ -79,11 +72,9 @@ export default function Header() {
               </button>
             </div>
 
-            {/* Conteúdo do menu mobile */}
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 
-                {/* Links de navegação mobile */}
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
@@ -96,7 +87,6 @@ export default function Header() {
                   ))}
                 </div>
 
-                {/* Botão login mobile */}
                 <div className="py-6">
                   <Link
                     to="/login"
