@@ -5,7 +5,8 @@ import Home from './routes/Home.jsx'
 import Error from './routes/Error.jsx'
 import LoginRegister from './routes/LoginRegister.jsx'
 
-function App() {
+
+export default function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
@@ -23,4 +24,3 @@ function App() {
   )
 }
 
-export default App
