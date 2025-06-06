@@ -26,6 +26,6 @@ A landing page apresenta:
 
 ## Integrantes do grupo
 
--
--
+- NOME RM
+- NOME RM
 - Gustavo Naoto Iida RM560470
