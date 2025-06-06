@@ -36,7 +36,7 @@ export default function LoginRegister() {
           </button>
         </form>
 
-        <p className="text-center mt-4 text-sm text-gray-600">
+        <p className="text-center mt-4 text-sm">
           {isLogin ? "Não tem uma conta?" : "Já tem uma conta?"}{" "}
           <button
             onClick={() => setIsLogin(!isLogin)}
