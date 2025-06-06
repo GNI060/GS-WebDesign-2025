@@ -68,7 +68,7 @@ export default function Home() {
       {stats.map((stat) => (
         <div key={stat.id}>
           <p className="text-2xl font-bold text-gray-900">{stat.value}</p>
-          <p className="text-sm text-gray-500">{stat.name}</p>
+          <p className="text-sm">{stat.name}</p>
         </div>
       ))}
     </div>
