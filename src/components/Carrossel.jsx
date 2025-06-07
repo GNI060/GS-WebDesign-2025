@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  '/carrossel1.jpg',
   '/carrossel2.jpg',
   '/carrossel3.jpg',
   '/carrossel4.jpg',
   '/carrossel5.jpg',
-  '/carrossel6.jpg',
-  '/carrossel7.jpg',
+  '/carrossel6.jpg'
 ];
 
 export default function Carrossel() {
