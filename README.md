@@ -29,3 +29,7 @@ A landing page apresenta:
 -Felipe Marceli rm560456
 -Kauã Rodrigues rm559335
 - Gustavo Naoto Iida RM560470
+
+
+LINK REPOSITÓRIO
+https://github.com/GNI060/GS-WebDesign-2025.git
