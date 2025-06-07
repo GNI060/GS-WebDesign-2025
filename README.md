@@ -26,6 +26,6 @@ A landing page apresenta:
 
 ## Integrantes do grupo
 
-- NOME RM
-- NOME RM
+-Felipe Marceli rm560456
+-Kauã Rodrigues rm559335
 - Gustavo Naoto Iida RM560470
