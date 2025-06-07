@@ -98,18 +98,15 @@ Esses dispositivos usam tecnologias como IoT e sensores de nível para detectar 
       <div>
   <Carrossel />
 </div>
-
+<br />
     </div>
-    <div className="mt-12">
-      <video
-        className="rounded-lg shadow-lg w-full"
-        controls
-        src="/caminho-do-video.mp4"
-        type="video/mp4"
-      >
-        Seu navegador não suporta o elemento de vídeo.
-      </video>
-    </div>
+    <iframe width="800" height="550" 
+      src="https://www.youtube.com/embed/NwDErhsSZeI?si=r8CXjC438cOR45iR" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
   </div>
 </section>
 

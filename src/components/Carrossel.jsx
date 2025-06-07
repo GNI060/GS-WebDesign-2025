@@ -20,7 +20,7 @@ export default function Carrossel() {
   }, []);
 
   return (
-    <div className="w-full h-[1000px] overflow-hidden rounded-lg shadow-lg">
+    <div className="w-full h-[800px] overflow-hidden rounded-lg shadow-lg">
       <img
         src={images[index]}
         alt={`Imagem ${index + 1}`}
